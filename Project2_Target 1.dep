@@ -1,0 +1,62 @@
+Dependencies for Project 'Project2', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_LPC17xx.s)(0x5B4170D4)(--cpu Cortex-M3 --pd "__RTX SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1" -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx --list "startup_LPC17xx.lst" --xref -o "startup_LPC17xx.o" --depend "startup_LPC17xx.d")
+F (.\GLCD_Scroll.c)(0x59C2BA66)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "glcd_scroll.o" --omf_browse "glcd_scroll.crf" --depend "glcd_scroll.d")
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x4FF5A98C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006D242)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB17B44)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A054C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB3D1C)
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x4F58EE42)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB17B44)
+I (glcd.h)(0x59C2BA66)
+I (glcd_scroll.h)(0x59C2BA66)
+F (.\GLCD_SPI_LPC1700.c)(0x59C2BA66)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "glcd_spi_lpc1700.o" --omf_browse "glcd_spi_lpc1700.crf" --depend "glcd_spi_lpc1700.d")
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x4FF5A98C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006D242)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB17B44)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A054C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB3D1C)
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x4F58EE42)
+I (GLCD.h)(0x59C2BA66)
+I (Font_6x8_h.h)(0x59C2BA66)
+I (Font_16x24_h.h)(0x59C2BA66)
+F (.\Retarget.c)(0x59C2B3C1)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "retarget.o" --omf_browse "retarget.crf" --depend "retarget.d")
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB17B46)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\rt_misc.h)(0x4EB17B40)
+I (uart.h)(0x59C2B3C1)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB17B44)
+F (.\RTX_config.c)(0x504A1232)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "rtx_config.o" --omf_browse "rtx_config.crf" --depend "rtx_config.d")
+I (c:\Software\Keil\ARM\RV31\INC\RTL.h)(0x504DE9BC)
+I (c:\Software\Keil\ARM\RV31\INC\RTX_lib.c)(0x5050CB38)
+F (.\uart.c)(0x59C3DEB8)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "uart.o" --omf_browse "uart.crf" --depend "uart.d")
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x4FF5A98C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006D242)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB17B44)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A054C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB3D1C)
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x4F58EE42)
+I (uart.h)(0x59C2B3C1)
+F (.\main.c)(0x5B43D267)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "main.o" --omf_browse "main.crf" --depend "main.d")
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\lpc17xx.h)(0x4FF5A98C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006D242)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB17B44)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A054C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB3D1C)
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x4F58EE42)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB17B46)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB17B44)
+I (GLCD.h)(0x59C2BA66)
+I (c:\Software\Keil\ARM\RV31\INC\RTL.h)(0x504DE9BC)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\math.h)(0x4EB17B48)
+I (queue.h)(0x5B412152)
+F (.\queue.c)(0x5B412152)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "queue.o" --omf_browse "queue.crf" --depend "queue.d")
+I (queue.h)(0x5B412152)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdio.h)(0x4EB17B46)
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdlib.h)(0x4EB17B44)
+F (C:\Software\Keil\ARM\Startup\NXP\LPC17xx\system_LPC17xx.c)(0x4F91513C)(-c --cpu Cortex-M3 -D__RTX -D__MICROLIB -g -O0 --apcs=interwork -I c:\Software\Keil\ARM\RV31\INC -I c:\Software\Keil\ARM\CMSIS\Include -I c:\Software\Keil\ARM\Inc\NXP\LPC17xx -D__RTGT_UART -o "system_lpc17xx.o" --omf_browse "system_lpc17xx.crf" --depend "system_lpc17xx.d")
+I (c:\Software\Keil\ARM\ARMCC\bin\..\include\stdint.h)(0x4EB17B44)
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\LPC17xx.h)(0x4FF5A98C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cm3.h)(0x5006D242)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmInstr.h)(0x505A054C)
+I (c:\Software\Keil\ARM\CMSIS\Include\core_cmFunc.h)(0x4FDB3D1C)
+I (c:\Software\Keil\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h)(0x4F58EE42)
